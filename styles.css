@@ -9,6 +9,8 @@
 
 }
 .leftSidebar {
+  display: -webkit-flex;
+  display: flex;
   width: 15%; 
   flex-direction: column;
   min-height:100vh;
@@ -17,14 +19,17 @@
 .leftSidebar_searchBox {
   background-color: red;
   height: 12%;
+  order: 1;
 }
 .leftSidebar_navigation {
   background-color: black;
   height: 88%;
+  order: 2;
 }
 .mainPage {
     background-color: white;
     width: 70%;
+    justify-content: center;
 }
 .mainPage_header{
   margin:20px;
@@ -35,7 +40,7 @@
  }
 .mainPage_movie{
   margin:10px;
-}
+ }
 .mainPage_movie--image{
   height:150px;
   width: 100px;
@@ -49,16 +54,19 @@
 }
 
 .rightSidebar_userInfo {
+  order:1;
   background-color: aqua;
   height: 12%;
 }
 .rightSidebar_userContacts {
+  order:2;
   background-color: whitesmoke;
   height: 76%;
 }
 .rightSidebar_contactSearch {
+  order:3;
   background-color: lightsteelblue;
-  height: 76%;
+  height: 12%;
 }
 
 

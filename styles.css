@@ -1,0 +1,64 @@
+
+.pageBackground {
+  display: -webkit-flex;
+  display: flex;
+  min-height:100vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+
+}
+.leftSidebar {
+  width: 15%; 
+  flex-direction: column;
+  min-height:100vh;
+  justify-content: flex-start;
+}
+.leftSidebar_searchBox {
+  background-color: red;
+  height: 12%;
+}
+.leftSidebar_navigation {
+  background-color: black;
+  height: 88%;
+}
+.mainPage {
+    background-color: white;
+    width: 70%;
+}
+.mainPage_header{
+  margin:20px;
+  font-family: Verdana, Geneva, sans-serif;
+ }
+.mainPage_header--text{
+  font-size: 12px;
+ }
+.mainPage_movie{
+  margin:10px;
+ }
+.mainPage_movie--image{
+  height:150px;
+  width: 100px;
+  margin:10px;
+ }
+.rightSidebar {
+  width: 15%; 
+  flex-direction: column;
+  min-height:100vh;
+  justify-content: flex-start;
+}
+
+.rightSidebar_userInfo {
+  background-color: aqua;
+  height: 12%;
+}
+.rightSidebar_userContacts {
+  background-color: whitesmoke;
+  height: 76%;
+}
+.rightSidebar_contactSearch {
+  background-color: lightsteelblue;
+  height: 76%;
+}
+
+

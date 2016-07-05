@@ -16,12 +16,12 @@
   min-height:100vh;
   justify-content: flex-start;
 }
-.leftSidebar_searchBox {
+.leftSidebar__searchBox {
   background-color: red;
   height: 12%;
   order: 1;
 }
-.leftSidebar_navigation {
+.leftSidebar__navigation {
   background-color: black;
   height: 88%;
   order: 2;
@@ -29,42 +29,62 @@
 .mainPage {
     background-color: white;
     width: 70%;
-    justify-content: center;
+    text-align: center;
 }
-.mainPage_header{
+.mainPage__header{
   margin:20px;
   font-family: Verdana, Geneva, sans-serif;
+  text-align: left;
  }
-.mainPage_header--text{
-  font-size: 12px;
+.mainPage__header--text{
+  font-size: 20px;
  }
-.mainPage_movie{
+.mainPage__movie{
   margin:10px;
+  text-align: left;
+  display: inline-block;
  }
-.mainPage_movie--image{
+.mainPage__movie--image{
+  text-align: left;
   height:150px;
   width: 100px;
   margin:10px;
+ }
+ .mainPage__movie--title{
+  font-size:9px;
+  font-weight: 900;
+  text-align: left;
+  margin-left:10px;
+ }
+  .mainPage__movie--genre{
+  font-size:9px;
+  font-weight: bold;
+  text-align: left;
+  margin-left:10px;
+ }
+ .mainPage__movie--runTime{
+  font-size:9px;
+  font-weight: bold;
+  text-align: left;
+  margin-left:10px;
  }
 .rightSidebar {
   width: 15%; 
   flex-direction: column;
   min-height:100vh;
   justify-content: flex-start;
+  padding-right: 100px;
 }
 
-.rightSidebar_userInfo {
-  order:1;
+.rightSidebar__userInfo {
   background-color: aqua;
   height: 12%;
 }
-.rightSidebar_userContacts {
-  order:2;
+.rightSidebar__userContacts {
   background-color: whitesmoke;
   height: 76%;
 }
-.rightSidebar_contactSearch {
-  order:3;
+.rightSidebar__contactSearch {
   background-color: lightsteelblue;
   height: 12%;
 }

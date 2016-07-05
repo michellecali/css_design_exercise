@@ -37,6 +37,12 @@
 .mainPage__header--text{
   font-size: 20px;
  }
+.mainPage__header--sortByFunction{
+
+ }
+.mainPage__header--runTime{
+
+ }
 .mainPage__movie{
   text-align: left;
   display: inline-block;
@@ -46,25 +52,21 @@
   text-align: left;
   height:180px;
   width: 120px;
-/*  margin:10px;*/
  }
  .mainPage__movie--title{
-  font-size:9px;
+  font-size:12px;
   font-weight: 900;
   text-align: left;
-  margin-left:10px;
  }
   .mainPage__movie--genre{
-  font-size:9px;
-  font-weight: bold;
+  font-size:12px;
+  font-weight: 100;
   text-align: left;
-  margin-left:10px;
  }
  .mainPage__movie--runTime{
-  font-size:9px;
-  font-weight: bold;
+  font-size:12px;
+  font-weight: 100;
   text-align: left;
-  margin-left:10px;
  }
 .rightSidebar {
   width: 15%; 

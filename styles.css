@@ -19,12 +19,10 @@
 .leftSidebar__searchBox {
   background-color: red;
   height: 12%;
-  order: 1;
 }
 .leftSidebar__navigation {
   background-color: black;
   height: 88%;
-  order: 2;
 }
 .mainPage {
     background-color: white;
@@ -40,15 +38,15 @@
   font-size: 20px;
  }
 .mainPage__movie{
-  margin:10px;
   text-align: left;
   display: inline-block;
+  margin:20px;
  }
 .mainPage__movie--image{
   text-align: left;
-  height:150px;
-  width: 100px;
-  margin:10px;
+  height:180px;
+  width: 120px;
+/*  margin:10px;*/
  }
  .mainPage__movie--title{
   font-size:9px;
